@@ -1,0 +1,112 @@
+[
+  {
+    "id": "unitreerobotics-unitree_mujoco",
+    "title": "Unitree MuJoCo",
+    "categories": [
+      "simulation"
+    ],
+    "tags": [
+      "G1",
+      "H1",
+      "MuJoCo",
+      "SDK2"
+    ],
+    "description": "Unitree simulator with C++ / Python implementations and robot MJCF models; focused on low-level controller development.",
+    "descriptionTh": "ระบบจำลอง Unitree แบบ C++ / Python พร้อมโมเดล MJCF สำหรับพัฒนาการควบคุมระดับล่าง",
+    "source": "upstream",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "upstream": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "unitreerobotics/unitree_mujoco"
+  },
+  {
+    "id": "google-deepmind-mujoco",
+    "title": "MuJoCo",
+    "categories": [
+      "simulation"
+    ],
+    "tags": [
+      "Physics",
+      "Python",
+      "C++"
+    ],
+    "description": "Physics simulation engine for robotics and control research. Robot-specific setup comes from model and task repositories.",
+    "descriptionTh": "เอนจินจำลองฟิสิกส์สำหรับงานหุ่นยนต์และระบบควบคุม ต้องใช้โมเดลและ Task ที่ตรงกับหุ่นยนต์",
+    "source": "upstream",
+    "owner": "google-deepmind",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "upstream": "https://github.com/google-deepmind/mujoco",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "google-deepmind/mujoco"
+  },
+  {
+    "id": "isaac-sim-IsaacLab",
+    "title": "Isaac Lab",
+    "categories": [
+      "simulation",
+      "learning"
+    ],
+    "tags": [
+      "RL",
+      "Simulation",
+      "Isaac Sim"
+    ],
+    "description": "Framework for robot learning built on Isaac Sim, with environments and training integrations.",
+    "descriptionTh": "เฟรมเวิร์ก Robot Learning บน Isaac Sim พร้อม Environment และส่วนเชื่อมต่อการฝึก",
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "upstream": "https://github.com/isaac-sim/IsaacLab",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "isaac-sim/IsaacLab"
+  },
+  {
+    "id": "Open-X-Humanoid-TienKung-Lab",
+    "key": "Open-X-Humanoid/TienKung-Lab",
+    "title": "TienKung Lab",
+    "description": "Isaac Lab workflows for legged-robot learning, including TienKung.",
+    "descriptionTh": "เวิร์กโฟลว์ Isaac Lab สำหรับเรียนรู้การเคลื่อนไหวของหุ่นยนต์ รวมถึง TienKung",
+    "categories": [
+      "simulation",
+      "research"
+    ],
+    "tags": [
+      "TienKung",
+      "RL",
+      "Isaac Lab"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/TienKung-Lab",
+    "upstream": "https://github.com/Open-X-Humanoid/TienKung-Lab",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "Open-X-Humanoid-x-humanoid-vla-simulation-benchmark",
+    "key": "Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "title": "X-Humanoid VLA Benchmark",
+    "description": "Isaac Sim resources for evaluating vision-language-action policies.",
+    "descriptionTh": "แหล่งข้อมูล Isaac Sim สำหรับประเมิน Policy แบบ VLA",
+    "categories": [
+      "simulation",
+      "vla",
+      "research"
+    ],
+    "tags": [
+      "VLA",
+      "Benchmark",
+      "Isaac Sim"
+    ],
+    "source": "upstream",
+    "owner": "Open-X-Humanoid",
+    "url": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  }
+]
