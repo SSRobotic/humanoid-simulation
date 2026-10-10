@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">🌐 Simulation</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-7-f28c28?style=flat-square" alt="7 curated resources"></a>
@@ -29,6 +29,25 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [X-Humanoid VLA Benchmark](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) | Isaac Sim resources for evaluating vision-language-action policies. | VLA, Benchmark, Isaac Sim | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) |
 | [Isaac Sim](https://github.com/isaac-sim/IsaacSim) | Robot simulation on NVIDIA Omniverse, with physics, sensor simulation and robot integration. | Isaac Sim, USD, RTX | [isaac-sim](https://github.com/isaac-sim/IsaacSim) |
 | [Isaac Sim ROS Workspaces](https://github.com/isaac-sim/IsaacSim-ros_workspaces) | ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream. | Isaac Sim, ROS 2, Integration | [isaac-sim](https://github.com/isaac-sim/IsaacSim-ros_workspaces) |
+
+## 📦 Code & models in this repository
+
+**718 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [unitreerobotics/unitree_mujoco](projects/unitree_mujoco) | 718 | [`1eb6642e3f3f`](https://github.com/unitreerobotics/unitree_mujoco/tree/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d) | [LICENSE](projects/unitree_mujoco/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-simulation.git
+cd humanoid-simulation
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
+
+The upstream Go2W assets include `terrain.STL` and `terrain.stl` as distinct paths. Both original Git blobs are preserved. Use a case-sensitive checkout (for example Linux) when you need that exact upstream asset layout.
 
 ## 🚀 Start here
 

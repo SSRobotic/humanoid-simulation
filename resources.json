@@ -19,7 +19,15 @@
     "upstream": "https://github.com/unitreerobotics/unitree_mujoco",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "unitreerobotics/unitree_mujoco"
+    "key": "unitreerobotics/unitree_mujoco",
+    "localCopies": [
+      {
+        "repository": "humanoid-simulation",
+        "url": "https://github.com/SSRobotic/humanoid-simulation/tree/main/projects/unitree_mujoco",
+        "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+        "fileCount": 718
+      }
+    ]
   },
   {
     "id": "isaac-sim-IsaacLab",
@@ -42,7 +50,15 @@
     "upstream": "https://github.com/isaac-sim/IsaacLab",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "isaac-sim/IsaacLab"
+    "key": "isaac-sim/IsaacLab",
+    "localCopies": [
+      {
+        "repository": "humanoid-isaac-sim",
+        "url": "https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacLab",
+        "commit": "b0542fe2d45bf91c4e1d9ef6952b9c709c80b4e8",
+        "fileCount": 1993
+      }
+    ]
   },
   {
     "id": "google-deepmind-mujoco",
@@ -133,7 +149,15 @@
     "url": "https://github.com/isaac-sim/IsaacSim",
     "upstream": "https://github.com/isaac-sim/IsaacSim",
     "license": "See project notices",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-isaac-sim",
+        "url": "https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacSim",
+        "commit": "2469084bc328710207c6bc4ede32209082a9286c",
+        "fileCount": 9529
+      }
+    ]
   },
   {
     "id": "isaac-sim-isaacsim-ros_workspaces",

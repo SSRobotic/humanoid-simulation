@@ -1,0 +1,22 @@
+{
+  "repository": "humanoid-simulation",
+  "url": "https://github.com/SSRobotic/humanoid-simulation",
+  "projects": [
+    {
+      "slug": "unitreerobotics/unitree_mujoco",
+      "source_url": "https://github.com/unitreerobotics/unitree_mujoco",
+      "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+      "branch": "main",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [],
+      "license": "BSD-3-Clause",
+      "folder": "projects/unitree_mujoco",
+      "file_count": 718,
+      "bytes": 339780290,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 718,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 718
+}
