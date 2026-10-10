@@ -22,6 +22,29 @@
     "key": "unitreerobotics/unitree_mujoco"
   },
   {
+    "id": "isaac-sim-IsaacLab",
+    "title": "Isaac Lab",
+    "categories": [
+      "simulation",
+      "learning",
+      "isaac"
+    ],
+    "tags": [
+      "RL",
+      "Simulation",
+      "Isaac Sim"
+    ],
+    "description": "Framework for robot learning built on Isaac Sim, with environments and training integrations.",
+    "descriptionTh": "เฟรมเวิร์ก Robot Learning บน Isaac Sim พร้อม Environment และส่วนเชื่อมต่อการฝึก",
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "upstream": "https://github.com/isaac-sim/IsaacLab",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "isaac-sim/IsaacLab"
+  },
+  {
     "id": "google-deepmind-mujoco",
     "title": "MuJoCo",
     "categories": [
@@ -43,28 +66,6 @@
     "key": "google-deepmind/mujoco"
   },
   {
-    "id": "isaac-sim-IsaacLab",
-    "title": "Isaac Lab",
-    "categories": [
-      "simulation",
-      "learning"
-    ],
-    "tags": [
-      "RL",
-      "Simulation",
-      "Isaac Sim"
-    ],
-    "description": "Framework for robot learning built on Isaac Sim, with environments and training integrations.",
-    "descriptionTh": "เฟรมเวิร์ก Robot Learning บน Isaac Sim พร้อม Environment และส่วนเชื่อมต่อการฝึก",
-    "source": "upstream",
-    "owner": "isaac-sim",
-    "url": "https://github.com/isaac-sim/IsaacLab",
-    "upstream": "https://github.com/isaac-sim/IsaacLab",
-    "license": "BSD-3-Clause",
-    "verifiedOn": "2026-10-10",
-    "key": "isaac-sim/IsaacLab"
-  },
-  {
     "id": "Open-X-Humanoid-TienKung-Lab",
     "key": "Open-X-Humanoid/TienKung-Lab",
     "title": "TienKung Lab",
@@ -72,7 +73,8 @@
     "descriptionTh": "เวิร์กโฟลว์ Isaac Lab สำหรับเรียนรู้การเคลื่อนไหวของหุ่นยนต์ รวมถึง TienKung",
     "categories": [
       "simulation",
-      "research"
+      "research",
+      "isaac"
     ],
     "tags": [
       "TienKung",
@@ -95,7 +97,8 @@
     "categories": [
       "simulation",
       "vla",
-      "research"
+      "research",
+      "isaac"
     ],
     "tags": [
       "VLA",
@@ -107,6 +110,52 @@
     "url": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
     "upstream": "https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark",
     "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "isaac-sim-isaacsim",
+    "key": "isaac-sim/IsaacSim",
+    "title": "Isaac Sim",
+    "description": "Robot simulation on NVIDIA Omniverse, with physics, sensor simulation and robot integration.",
+    "descriptionTh": "ระบบจำลองหุ่นยนต์บน NVIDIA Omniverse พร้อมฟิสิกส์ เซนเซอร์ และการเชื่อมระบบ",
+    "tags": [
+      "Isaac Sim",
+      "USD",
+      "RTX",
+      "Sensors"
+    ],
+    "categories": [
+      "isaac",
+      "simulation"
+    ],
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacSim",
+    "upstream": "https://github.com/isaac-sim/IsaacSim",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "isaac-sim-isaacsim-ros_workspaces",
+    "key": "isaac-sim/IsaacSim-ros_workspaces",
+    "title": "Isaac Sim ROS Workspaces",
+    "description": "ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream.",
+    "descriptionTh": "แพ็กเกจ ROS Workspace สำหรับเชื่อม Isaac Sim ตรวจรุ่น ROS ที่รองรับจากต้นฉบับ",
+    "tags": [
+      "Isaac Sim",
+      "ROS 2",
+      "Integration"
+    ],
+    "categories": [
+      "isaac",
+      "ros",
+      "simulation"
+    ],
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacSim-ros_workspaces",
+    "upstream": "https://github.com/isaac-sim/IsaacSim-ros_workspaces",
+    "license": "Apache-2.0",
     "verifiedOn": "2026-10-10"
   }
 ]
